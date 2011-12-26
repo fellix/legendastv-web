@@ -1,0 +1,44 @@
+#subtitles-list{
+  list-style-type: none;
+}
+
+#subtitles-list li{
+  float: left;
+}
+.subtitle {
+        height: 89px;
+        width: 300px;
+        overflow: hidden;
+        border: 1px solid #D0D0D0;
+        -webkit-box-shadow: 0 0 8px #D0D0D0;
+        -moz-box-shadow: 0 0 8px #D0D0D0;
+        box-shadow: 0 0 8px #D0D0D0;
+        margin: 10px;
+    }
+    
+    .subtitle img {
+        float:left;
+        margin: 5px;
+    }
+    
+    .subtitle .info {
+        width: 158px;
+        height: 89px;
+        float:right; 
+    }
+    
+    .subtitle .info .title {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.9em;
+        margin: 5px;
+        width: 148px;
+        height: 52px;
+        text-align: center;
+        font-weight: bold;
+    }
+    
+    
+    
+    .subtitle .info .madeby {
+        margin: 5px 13px;
+    }
